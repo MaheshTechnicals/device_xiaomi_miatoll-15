@@ -38,6 +38,9 @@ AXION_CPU_DISPLAY   := 0-5
 # Turn off extra logging on release builds
 AXION_DEBUGGING_ENABLED := false
 
+# Include signing keys
+include vendor/lineage-priv/keys/keys.mk
+
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
