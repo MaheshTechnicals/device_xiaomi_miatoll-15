@@ -41,9 +41,7 @@ AXION_DEBUGGING_ENABLED := false
 # Include signing keys
 include vendor/lineage-priv/keys/keys.mk
 
-# Browser
-PRODUCT_PACKAGES += \
-    Jelly
+TARGET_INCLUDES_LOS_PREBUILTS := true
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
